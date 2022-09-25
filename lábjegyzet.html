@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="almappa1.html">Almappa 1</a>
+        </li>
+        <li>
+            <a href="almappa2.html">Almappa 2</a>
+        </li>
+        <li>
+            <a href="jegyzet.html">Jegyzet </a>
+        </li>
+        <li>
+            <a href="táblázatok.html">Táblázatok</a>
+        </li>
+    </ul>
+    <img width="300" src="img/4.npg.jpg" alt="hiba">
+
+    <h1 style="color: rgb(227, 212, 150);"> Almappa 3 jegyzet </h1>
+    
+    <table>
+            <caption> Opening hours </caption>
+            <thead>
+                <tr>
+                <th>Day</th>
+                <th>Open</th>
+                <th>Close</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday- Friday</td>
+                    <td>09:00</td>
+                    <td>10:00</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>10:00</td>
+                    <td>10:00</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>10:00</td>
+                    <td>10:00</td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <td colspan="3">
+                        &copy; 2022 a jó pozició
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+</body>
+
+</html>
+
+    <h3 style="color:  blue;"> Elégedettségi kérdőív kitöltése</h3>
+</a>
+
+<a>
+    <h3 style="color:  blue;"> Időpont foglalások</h3>
+</a>
+
+<a>
+    <h3 style="color:  blue;"> Kapcsolat</h3>
+</a>
+
+/*
+jegyzet img{
+    magasság: width: 200px;
+    szélesség: height: 200px;
+}
+text.align:       szöveg igazitás:    left:      bal
+text.align:                           right:     jobb
+text.align:                           center:    közé
+text.align:                           Justify:   sorkizárt
+text-transform:   szöveg átalakítása:      capitalize:Minden Szó Nagybetűvel Kezdődik
+text-transform:   szöveg átalakítása:      uppercase: A teljes szöveg NAGYBETŰS
+text-transform:   szöveg átalakítása:      lowercrase:a teljes szöveg kisbetű
+line-height:      sormagasság:             30..px; Sorkizárás, sormagasságot lehet beállítani.  
+line-height:      sormagasság:             normal; Sorkizárás, sormagasságot lehet beállítani.normál alap beállítás.  
+font-weight: 700;                :betű vastagítás    betűtípustól is függ
+font-weight: lighter;            :betű vékonyítás
+font-weight: bold;               :félkövér betű
+font-weight: bolder;             :enyhén félkövér betű
+font-size:          betű méret:             24..px; 
+font-family:        betű típus:             
+""
+html{
+    font-family: fantasy;
+    color:rgb(8, 8, 8);
+    text-align:center;
+    text-transform:lowercase;
+    line-height: 15px;
+    font-size: 12px;
+   }
+h5{
+    color: blue;
+    text-align:right;
+    text-transform:uppercase;
+}
+p{
+    color:grey;
+    font-size: 15px;
+ }
+caption{
+    font-size: 25px;
+    text-transform:uppercase;
+    color: rgb(227, 212, 150);
+}
+img{
+    width: 100px;
+    ""
+ID= szelektor jele a # kettős kereszt
+
+<h3 id="szia-header">szia</h3> "atributum" ez az egyedi azonosító ami alapján kiválasztják
+<h3 id="második bekezdés-header">második bekezdés</h3>
+külön formázok erre  CÍMRE
+EZUTÁN CSS->#(ID AZONOSÍTÓ), és igy eggyesével tudom modosítani a bekezdésem színét.
+
+H3 szelektronál beállytok egységesen valamit, és az id selektronál csak azt amit eltér
+
+ html{
+     text-transform:lowercase;
+     } és az oldal teljes szövegét megváltoztathatod
+
+@font-face{
+      font-family:"css/font syze/Roboto-Black.ttf";
+       src: url("css/font syze/Roboto-Black.ttf");
+       font-weight:200;
+        }
+               
+  @import url('https://fonts.googleapis.com/css2? family= Bungee+Spice & display=swap');
+
+
+
+     h5{
+         color: blue;
+         font-family: fantasy;
+         text-align:center;
+         }
+     p{
+        color:grey;
+        font-size: 15px;
+        font-family: fantasy;
+        text-transform:lowercase;
+        line-height: 15px;
+        font-weight:100;
+        }
+    table{
+        color:grey;
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 15px;
+        font-weight:50;
+        text-align:center;
+        }
+     caption{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        text-align:center;
+        text-transform:uppercase;
+        color: rgb(227, 212, 150);
+        }
+    img{
+        width: 100px; kép mérete
+        }
+
+        csoportosítás, osztályokba szedem
+
+        <p class="content">
+            szöveg
+        </p>
+
+        css-> .content és az összes content elemet tudjuk formázni
+
+        tartalom tagolás:
+        <span class="bold">származik?</span>     
+          . pold és az összes bold elem egyedileg a tartalom küözepén formázható
+          <div> disájnerek kedvence</div>
+
+          a kijelölt elem viruális doboz. box model
+          képek formázása:
+          Margin: külső elválasztó terület, a kép ás a szöveg között (árnyék)
+          Border: a kép szegélye, kerete
+          Padding: az elemhez tartozó rész határozza meg: nem tudomk micsoda, 
+          maga a tartalom mérete
+
+          margó modosítás, felül kevesebb legyen a magasság mint alul, vagy körbe
+          margin top      felül
+          margin right
+          margin left
+          margint bottom   lent
+            margin 10px,20px,30px,0; az óramutató járásával megyeggyezően
+
+            border: meg kell adni egyszer a  típusát:
+            solid: folytonos vonal
+            dashed: szaggatott vonal 
+            _____ pöttyözöt
+
+            utána  a vastagság pixelbe 1 px, majd a szín;
+
+árnyék
+css <img-be, 
+
+box-shadow: visszintes:0 függöleges:0 árnyék mérete:2px, szine: ;
+
+relatív magasságok méretezések:
+
+% megadás, relatív megadás, a div elemehez képest nézni a a százalékot
+
+kép helyzetének módosítása: 
+#img-1{
+    position: none; elrejtés
+    bottom:62px;
+    left: 25px;
+ }
+#img-2{
+    position: relative;  mozgatás ahová szeretnéd
+    bottom:62px;
+    left: 25px;
+ }
+#img-3{
+    position: fixed;  rögzíted a képernyőre.
+    bottom:62px;
+    left: 25px;
+ }
+
+ Háttér formázása,
++ anyag
+<form action="html5_button.php"  method="post">
+    Név: <br>
+    <input type="text" name="text1" value="Hogy hívnak?" > 
+    <br><br>
+    <button type="reset"  value="Törlés"> Törlés </button>
+    <button type="button" onclick="msg()" value="Hahó Öcsi!">Hahó Öcsi!</button>
+    <button type="submit" value="Küldés"> Küldés </button>
+    <button type="button" value="Tíltott" disabled >Tíltott</button>
+  </form>
+ 
+
+
+*/
