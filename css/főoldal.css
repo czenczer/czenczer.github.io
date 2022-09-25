@@ -1,44 +1,23 @@
 html{
     background-image: url(../img/1.jpg.jpg);
-    
-     }
-h1{
-    color: rgba(227, 212, 150)
 }
-a{
-    color: rgba(227, 212, 150);
-    text-align: center;
+.első{
+   color: rgba(227, 212, 150);
+   font-size: 25px;
+   text-align:center;
+   position: relative;
+   top: 552px;
+   left: 10px;
 }
-#img-1{
-    position: relative;
-    top:20px;
-    bottom:72px;
-    left: 510px;
- }
- .első{
+ .második{
     color: rgba(227, 212, 150);
-    font-size: 25px;
-    text-align:center;
-    position: relative;
-    top: 552px;
-    left: 10px;
+   font-size: 25px;
+   text-align:center;
+   position: relative;
+   top: 552px;
+   left: 10px;
  }
- .button {
-    background-color:rgba(0, 0, 255,0.2);
-    border: none;
-    color: rgb(227, 212, 150);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    margin: 4px 2px;
-    cursor: pointer;
-    position: relative;
-    top: 562px;
-    left:350px;
- }
- .button:hover {
+  .button:hover {
     background-color:rgb(0, 0, 255,);
     color:rgb(227, 212, 150);
     transition-duration: 0.5s;
@@ -47,9 +26,3 @@ a{
 .button:active {
         transform: translateY(5px);
     }
-a{
-    text-align: right;
-}
-
- 
-
