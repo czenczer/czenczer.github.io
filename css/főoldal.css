@@ -20,8 +20,8 @@ html{
   .button:hover {
     color:rgb(227, 212, 150);
     transition-duration: 1s;
-    box-shadow: 2px 2px black;
+    box-shadow: 2px 0px black;
     }
 .button:active {
-        transform: translateY(5px);
+    transform: translateY(1px);
     }
