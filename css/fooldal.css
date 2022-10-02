@@ -43,19 +43,7 @@ Body {
     margin-top:-60px; 
     box-shadow: 1px 1px 0px 0px black;
 }
-.negyedik {
-    display: block;
-    color: rgb(19, 16, 1);
-    font-size: 15px;
-    background: #cbd7de;
-    padding: 5px 15px 5px 20px;
-    border: solid 1px #9f9e9e;
-    display: inline-block;
-    position: absolute;
-    left: 32px;
-    margin-top:-60px; 
-    box-shadow: 1px 1px 0px 0px black;
-}
+
 .button:hover {
     color: rgb(19, 16, 1);
     transition-duration: 1s; 
