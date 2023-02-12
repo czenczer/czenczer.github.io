@@ -27,6 +27,7 @@ Body {
 .hatodik {
     color: rgb(188, 166, 57);
     font-size:x-large;
+    padding : 250px;
 }
 
 table,th,td,tr {
