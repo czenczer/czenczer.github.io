@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Semmelweis Egyetem</title>
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/főoldal.css">
+
+    <script type='text/javascript' src='https://booked4.us/cdn/lib/embedding-v2/js'></script>
+    <link rel='stylesheet' href='https://booked4.us/cdn/lib/embedding-v2/css' type='text/css' />
+
+</head>
+
+<body>
+    <p class="ötödik">
+        <img width="200" src="img/4.npg.jpg" alt="hiba">
+    </p>
+
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="főoldal.html">Főoldal</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="elojegyzesek.html">Elérhető időpontok</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://docs.google.com/forms/d/1Rp240YnbYkuTgxDukLTtSZe62gLcuCdpgMn38pR3mBY/edit" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Elégedettségi kérdőív</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown" href=" https://semmelweis.hu/szakrendelo/">Elérhetőségek
+            </a></li>
+          </ul>
+
+          <div id='reservation-container'></div>
+          <script src="./booked.js"></script>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-success" type="submit">
+            <a class="nav-link" href="bejelentkezes.html">Bejelentkezés</a>
+        </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+ 
+        <p class="hatodik"> KÖSZÖNJÜK, HOGY MINKET VÁLASZTOTT</p>
+        <iframe src='https://semmelweisegyetem.booked4.us/public/?CalendarId=17&Culture=hu&Mode=iframe&SchemaName=semmelweisegyetem&HideCompanyInfo=true' style='width:100%; height:600px; border: none; margin: 0; padding: 0;'></iframe>
+
+</body>
+</html>
