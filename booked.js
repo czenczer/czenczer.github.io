@@ -1,6 +1,6 @@
-*//
+
 alert('TESZT OLDAL !!!!');
-//
+
 
 new Booked4us({
 	"CalendarId": "16",
